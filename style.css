@@ -12,6 +12,8 @@ a {
 }
 .top {
     background: #1F2937;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 .header,.hero{
     margin-left: 10%;
@@ -22,6 +24,15 @@ a {
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
+    font-size:24px;
+    margin-bottom: 64px;
+}
+.header .logo{
+    font-weight: 800;
+}
+.header .links{
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .header .links ul{
@@ -33,6 +44,7 @@ a {
     display:flex;
     color: #f9faf8;
     gap: 16px;
+    
 }
 .hero h1{
     margin:0;
@@ -67,6 +79,8 @@ button{
     margin-left: 20%;
     margin-right: 20%;
     justify-content: center;
+    margin-bottom: 456px;
+    margin-top: 64px;
 }
 .card {
     display:flex;
@@ -81,7 +95,8 @@ button{
 .card .image{
     width: 120px;
     height: 120px;
-    border: 1px solid black;
+    border: 2px solid #3882f6;
+    border-radius: 6px;
     
 }
 .quote,.author{
@@ -89,26 +104,33 @@ button{
     margin-left: 24%;
     margin-right: 24%;
 }
+.quote-container{
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
 .quote{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 300;
     font-style: italic;
 }
 .author{
-    
     font-size:18px;
     font-weight:700;
     color: #1F2937;
+    align-self: flex-end;
 }
 .footer{
     margin-left: 10%;
     margin-right: 10%;
     background-color: #3882f6;
-    margin-top:34px;
+    margin-top:256px;
+    margin-bottom: 64px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 58px 32px 58px;
+    padding: 32px 108px 32px 108px;
     border-radius: 8px;
 }
 .footer .left *{
@@ -118,4 +140,16 @@ button{
 }
 .footer button{
     border:2px solid #f9faf8;;
+}
+
+.greater-footer{
+    height: 84px;
+    color: #f9faf8;
+    background-color: #1F2937;
+    text-align: center;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
