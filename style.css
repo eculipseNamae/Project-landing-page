@@ -13,7 +13,8 @@ a {
 .top {
     background: #1F2937;
     margin-bottom: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 188px;
+    
 }
 .header,.hero{
     margin-left: 10%;
@@ -40,7 +41,7 @@ a {
     gap: 16px;
 }
 .hero {
-    margin-top: 30px;
+    margin-top: 64px;
     display:flex;
     color: #f9faf8;
     gap: 16px;
